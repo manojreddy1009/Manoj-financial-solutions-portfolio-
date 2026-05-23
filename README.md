@@ -1,4 +1,3 @@
-# Manoj-financial-solutions-portfolio-
 export default function ManojFinancialSolutionsPortfolio() { return ( <div className="min-h-screen bg-white text-gray-800 font-sans"> {/* Navbar */} <nav className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50"> <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"> <h1 className="text-2xl font-bold tracking-wide text-gray-800"> Manoj Financial Solutions </h1> <div className="hidden md:flex gap-8 text-sm font-medium"> <a href="#home" className="hover:text-blue-500">Home</a> <a href="#about" className="hover:text-blue-500">About</a> <a href="#services" className="hover:text-blue-500">Services</a> <a href="#partners" className="hover:text-blue-500">Partners</a> <a href="#contact" className="hover:text-blue-500">Contact</a> </div> </div> </nav>
 
 {/* Hero Section */}
