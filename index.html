@@ -2,117 +2,280 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Manoj Financial Solutions</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="top-left">
+      <span>📞 8186081009</span>
+      <span>✉️ manoj.insurance.advisor.help@gmail.com</span>
+    </div>
+
+    <div class="top-right">
+      <span>📷 @manoj_financial_solutions</span>
+    </div>
+  </div>
 
   <!-- Navbar -->
   <header>
-    <div class="logo">
-      <h2>MANOJ FINANCIAL SOLUTIONS</h2>
+    <div class="logo-section">
+      <img src="logo.png" alt="Logo">
+
+      <div>
+        <h2>MANOJ</h2>
+        <p>FINANCIAL SOLUTIONS</p>
+      </div>
     </div>
 
     <nav>
       <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </nav>
+
+    <a href="tel:8186081009" class="contact-btn">
+      Contact Now
+    </a>
   </header>
+
 
   <!-- Hero Section -->
   <section class="hero">
 
-    <div class="hero-text">
-      <h1>
-        Protecting Families.<br>
-        Securing Futures.
-      </h1>
+    <div class="overlay"></div>
 
-      <p>
-        Professional Insurance & Financial Advisor helping families with trusted insurance solutions.
-      </p>
+    <div class="hero-content">
 
-      <div class="buttons">
-        <a href="tel:8186081009" class="btn">Contact Now</a>
+      <div class="hero-text">
 
-        <a href="https://wa.me/918186081009" class="btn btn-outline">
-          WhatsApp
-        </a>
+        <span class="welcome">WELCOME TO</span>
+
+        <h1>
+          MANOJ <br>
+          <span>FINANCIAL SOLUTIONS</span>
+        </h1>
+
+        <h3>
+          “Protecting Families. Securing Futures.”
+        </h3>
+
+        <p>
+          I help you choose the right insurance and financial solutions to protect what matters most.
+        </p>
+
+        <div class="features">
+
+          <div class="feature-box">
+            <div class="circle">🛡️</div>
+            <span>Trusted Guidance</span>
+          </div>
+
+          <div class="feature-box">
+            <div class="circle">👨‍👩‍👧</div>
+            <span>Personalized Solutions</span>
+          </div>
+
+          <div class="feature-box">
+            <div class="circle">❤️</div>
+            <span>Family Protection</span>
+          </div>
+
+        </div>
+
+        <div class="buttons">
+          <a href="tel:8186081009" class="btn-primary">
+            Get Free Consultation
+          </a>
+
+          <a href="https://wa.me/918186081009" class="btn-secondary">
+            WhatsApp
+          </a>
+        </div>
+
       </div>
-    </div>
 
-    <div class="hero-image">
-      <img src="https://i.imgur.com/1X4QZ8M.png" alt="Manoj">
-    </div>
 
+      <div class="hero-image">
+
+        <div class="blue-circle"></div>
+
+        <img src="manoj.png" alt="Manoj Reddy">
+
+        <div class="name-card">
+          <h4>DONGALA MANOJ REDDY</h4>
+          <p>Insurance Advisor & Financial Planner</p>
+        </div>
+
+      </div>
+
+    </div>
   </section>
 
-  <!-- About -->
-  <section class="about">
-
-    <h2>About Me</h2>
-
-    <p>
-      I am Dongala Manoj Reddy, founder of Manoj Financial Solutions.
-      My mission is to help families stay financially protected through trusted insurance and investment solutions.
-    </p>
-
-  </section>
 
   <!-- Services -->
-  <section class="services">
+  <section class="services" id="services">
 
-    <h2>Services</h2>
+    <span class="section-subtitle">OUR SERVICES</span>
 
-    <div class="service-box">
+    <h2>
+      Financial Solutions for Every Stage of Life
+    </h2>
 
-      <div class="card">
+    <div class="service-grid">
+
+      <div class="service-card">
+        <div class="icon">❤️</div>
         <h3>Health Insurance</h3>
+        <p>Comprehensive protection for your family.</p>
       </div>
 
-      <div class="card">
+      <div class="service-card">
+        <div class="icon">👨‍👩‍👧</div>
         <h3>Life Insurance</h3>
+        <p>Secure your family’s future with confidence.</p>
       </div>
 
-      <div class="card">
+      <div class="service-card">
+        <div class="icon">🛡️</div>
         <h3>Term Plans</h3>
+        <p>Affordable protection with high coverage.</p>
       </div>
 
-      <div class="card">
+      <div class="service-card">
+        <div class="icon">💰</div>
         <h3>Savings Plans</h3>
+        <p>Grow your savings smartly and safely.</p>
       </div>
 
-      <div class="card">
+      <div class="service-card">
+        <div class="icon">👶</div>
         <h3>Child Plans</h3>
+        <p>Build a secure future for your children.</p>
       </div>
 
-      <div class="card">
-        <h3>Investments</h3>
+      <div class="service-card">
+        <div class="icon">📈</div>
+        <h3>Investment Plans</h3>
+        <p>Financial growth with expert planning.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Stats -->
+  <section class="stats">
+
+    <div class="stat-box">
+      <h3>100+</h3>
+      <p>Happy Families</p>
+    </div>
+
+    <div class="stat-box">
+      <h3>25+</h3>
+      <p>Insurance Plans</p>
+    </div>
+
+    <div class="stat-box">
+      <h3>2+</h3>
+      <p>Trusted Partners</p>
+    </div>
+
+    <div class="stat-box">
+      <h3>100%</h3>
+      <p>Commitment</p>
+    </div>
+
+  </section>
+
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <div class="about-left">
+      <img src="logo.png" alt="Logo">
+    </div>
+
+    <div class="about-right">
+
+      <span class="section-subtitle">ABOUT ME</span>
+
+      <h2>
+        Your Trusted Financial Protection Partner
+      </h2>
+
+      <p>
+        I am Dongala Manoj Reddy, founder of Manoj Financial Solutions. My mission is to help families stay financially protected through trusted insurance and investment solutions.
+      </p>
+
+      <p>
+        Insurance is not just a policy — it is peace of mind for your family’s future. I believe in honest guidance, long-term support, and helping people make better financial decisions.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+
+    <div class="contact-container">
+
+      <div class="contact-left">
+
+        <span class="section-subtitle">CONTACT ME</span>
+
+        <h2>Let’s Secure Your Family’s Future Together</h2>
+
+        <div class="contact-details">
+          <p>📞 8186081009</p>
+          <p>📧 manoj.insurance.advisor.help@gmail.com</p>
+          <p>📷 @manoj_financial_solutions</p>
+        </div>
+
+      </div>
+
+
+      <div class="contact-right">
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="number" placeholder="Phone Number">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button>
+          Send Inquiry
+        </button>
+
       </div>
 
     </div>
 
   </section>
 
-  <!-- Contact -->
-  <section class="contact">
-
-    <h2>Contact Me</h2>
-
-    <p>📞 8186081009</p>
-    <p>📧 manoj.insurance.advisor.help@gmail.com</p>
-    <p>📷 @manoj_financial_solutions</p>
-
-  </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2026 Manoj Financial Solutions</p>
+    <p>
+      © 2026 Manoj Financial Solutions. All Rights Reserved.
+    </p>
   </footer>
+
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/918186081009" class="whatsapp">
+    💬
+  </a>
 
 </body>
 </html>
